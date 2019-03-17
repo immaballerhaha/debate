@@ -36,3 +36,19 @@ li {
 .space {
     height: 0.5rem;
 }
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 1rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

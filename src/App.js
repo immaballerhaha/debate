@@ -21,6 +21,7 @@ import IntroductionPF from './components/TOC/PF/Introduction/IntroductionPF';
 import SpeechesPF from './components/TOC/PF/Speeches/SpeechesPF';
 import CXPF from './components/TOC/PF/CX/CXPF';
 import CaseConstructionPF from './components/TOC/PF/CaseConstruction/CaseConstructionPF';
+import RebuttalsPF from './components/TOC/PF/RebuttalsPF/RebuttalsPF';
 
 
 
@@ -79,19 +80,21 @@ class App extends Component {
       pageContent = <Technical />
     } else if (this.state.tab === 'pf-intro') {
       pageContent = <IntroductionPF />
+    } else if (this.state.tab === 'rebuttalsPF') {
+      pageContent = <RebuttalsPF />
     } else if (this.state.tab === 'pf') {
       pageContent = <IntroductionPF />
     }else if (this.state.tab === 'pf-speeches') {
       pageContent = <SpeechesPF />
     } else if (this.state.tab === 'pf-cx') {
-      pageContent = <CXPF />
+      pageContent = <CXLD />
     } else if (this.state.tab === 'pf-case-construction') {
       pageContent = <CaseConstructionPF />
     } else if (this.state.tab === 'mission') {
       pageContent = <Mission />
     } else if (this.state.tab === 'team') {
       pageContent = <Team />
-    }
+    } 
 
 
     return (

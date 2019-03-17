@@ -1,12 +1,11 @@
 import React from 'react';
-import './Rebuttals.css';
-import A2 from './A2.png';
-import Weighing from './Weighing.png'
 import { Accordion, AccordionItem } from 'react-light-accordion';
 import 'react-light-accordion/demo/css/index.css';
+import './RebuttalsPF.css';
+import Frontlines from './Frontlines.png';
 
 
-class Rebuttals extends React.Component {
+class RebuttalsPF extends React.Component {
     render() {
         return (
             <main className='body'>
@@ -14,8 +13,8 @@ class Rebuttals extends React.Component {
                 <p>In general you should go into rounds with a good idea of all the potential rebuttals you might face or use.  The hallmark of a great debater is being able to confidently defend their case when under attack and easily deconstructing their opponent’s cases through critical thinking and logical reasoning.</p>
                 <h2>Preparing Frontlines</h2>
                 <p>But thinking on your feet for every argument is tiring and unsustainable.  It's smart to have prepared responses to common arguments written down so that you can focus more time for the hardest arguments.</p>
-                <img src={A2} heigh='70%' width='70%' alt='frontlines' border='2'/>
-                <p>In the above example, we are reading a poll to prove a majority support for our plan.  However, anticipating that the opponent might attack the idea of "following the majority" by saying that it could lead to atrocities like slavery, we come up with solid answers beforehand.  Notice how the arguments are strategically layered on top of each other.  We'll touch up more on this strategy later.</p>
+                <img src={Frontlines} heigh='70%' width='70%' alt='frontlines' border='2'/>
+                <p>In the above example, we are reading an international relations argument that says it is important for the U.S. to follow international law to maximize soft power.  However, anticipating that the opponent might attack that idea by saying that countries break international law all the time and don't face consequences, we come up with solid answers beforehand.</p>
                 <h2>Defensive Rebuttals</h2>
                 <p>Defensive rebuttals are, as the name implies, “defensive.”  Winning a defensive rebuttal casts doubt on your targeted contention, but doesn’t provide a reason why that contention is necessarily bad or leads to bad consequences.  Although defensive rebuttals can mitigate the impact or link of a contention, it ultimately won’t win you the round and at best sets the argument chain to net neutral.  Think of it as “damage control.”  There’s inevitably going to be some damage control but you don’t want your entire rebuttal speech to be just that.</p>
                 <p>There are two main types of defensive rebuttals:</p>
@@ -74,7 +73,7 @@ class Rebuttals extends React.Component {
                 <p>The questions above that you ask yourself are all part of the process to discover which FEW arguments you will go for in your next speech (especially if it’s a short one like the 2AR).  And these connections aren’t always going to be immediately clear in the round.  It is your job to see where on the flow it is possible to create these arguments and then present them in your rebuttal speeches.<br/><br/><strong>Example: </strong>“Judge there have been many different arguments presented in today’s round.  However there are really only three key arguments that are truly important for they serve as the link to the most important impacts in today’s debate.”</p>
                 <p><strong>Example: </strong>“Evaluate my contention 2 first as it is the most important argument and is functionally a prerequisite to every other argument presented in the debate”</p>
                 <p>A big part of collapsing is weighing.  When you collapse, you are inherently going to concede some arguments, so to clean things up on the flow and make the narrative clear to your judge, you’re going to want to do some weighing between the arguments you go for vs. the arguments you don’t.  Make it clear why the argument’s you are going for are the most important arguments!</p>
-                <p><strong>Note: </strong>A lot of time’s I’ve seen debaters use weighing argument as rebuttals during their rebuttal speech.  This just doesn’t seem very time efficient to me because you know you’re going to have to bring up weighing again in your final speech for consolidation purposes.  Why not keep the element of surprise and your time, and save it for the final speech?</p>
+                <p><strong>Note: </strong>A lot of time’s I’ve seen debaters use weighing argument as rebuttals during their rebuttal speech.  This just doesn’t seem very time efficient to me because you know you’re going to have to bring up weighing again in your summary speeches for consolidation purposes.  Why not keep the element of surprise and your time, and save it for those speeches?  The 4 minute rebuttal speech should focus solely on putting new responses on the opposing case.</p>
                 <h2>Weighing</h2>
                 <p>Weighing is just that: weighing two different arguments or impacts and explaining why one is more important and thus “outweighs” the other.  It is efficiently used when presented in the last speech to wrap up loose ends.</p>
                 <p>There are few different factors to consider in weighing analysis.  One of these or multiple combined together can be presented as the justification for why X outweighs Y.</p>
@@ -95,15 +94,13 @@ class Rebuttals extends React.Component {
                         <p style={{padding: '1rem'}}>Reversibility basically asks if the damages of the impact are reversible or not.  If the damages are irreversible then it is arguable much worse.  Debaters usually use the point that extinction is irreversible to try and beat back probability weighing analysis that says it’s unlikely.  Death is also irreversible.<br/><br/><strong>Example: </strong>“War outweighs economic collapse on reversibility.  People can always earn their money back but people dying during the conflict can never be undone.”</p>
                     </AccordionItem>
                 </Accordion>
-                <p>Here's an example of weighing analysis extensions I wrote on the LD Qualified Immunity.  The goal was to prove that criminal homicides outweighed police homicides.</p>
-                <img src={Weighing} alt='weighing' width='60%' height='60%' border='2' style={{margin: '1rem'}}/>
                 <h2>Overviews</h2>
                 <p>Your rebuttal speeches should generally always start with an overview (about 30 seconds) that summarizes why you are winning on a high level.  Maybe you choose to explain why a dropped argument was actually the most important argument in the round, or maybe you choose to highlight a key deficiency in your opponent’s case or evidence.  Either way, the overview will be most memorable to your judge so use it to point out the biggest issue and build off from there. </p>
-                <p>If your opponent’s speech before was overly defensive, meaning most of their arguments were defensive in nature, point that out to the judge.  Maybe they conceded framework?  Explain the implications of what that means in terms of what arguments have been zoned out.  I know I know, isn’t this something I would normally advise to be saved for the last speech?  Overviews are the only exception, because you are literally picking the most important and most undercovered aspect of the debate -you might just win the round right then and there, so it’s an okay move in my book!</p>
+                <p>If your opponent’s speech before was overly defensive, meaning most of their arguments were defensive in nature, point that out to the judge.  Maybe they conceded a definition they shouldn't have?  Explain the implications of what that means in terms of what arguments have been zoned out.  I know I know, isn’t this something I would normally advise to be saved for the last speech?  Overviews are the only exception, because you are literally picking the most important and most undercovered aspect of the debate -you might just win the round right then and there, so it’s an okay move in my book!</p>
                 <p><strong>Examples: </strong>“Before we get into the nuances of each argument, I would like to point out that on a high level the majority of my opponent’s responses have been defensive in nature.  This means that for the most part, my opponent hasn’t upheld his burden of proving that the aff/neg position is bad but rather posited that the aff/neg position simply isn’t as amazing as it could be.  This isn’t a reason to vote for the other side, and I will clarify this more in my final speech.”</p>    
                 <p><strong>Examples: </strong>“The vast majority of my opponents arguments deal with faults with the current system.  That isn’t what the aff/neg is advocating for.  Rather, we have multiple plans in place which learn from the errors of our past and none of these new changes have been addressed by either my opponent’s evidence or his rebuttals.”</p>
                 <p><strong>Examples: </strong>“My opponent has dropped my third and final contention.  As you can see there is not a single response on it.  Unfortunately, this will soon become the most important argument this round, and he will not be allowed to respond to it anymore since it has been cold conceded.”</p>
-                <p><strong>Examples: </strong>“My opponent has completely conceded my rights based framework, dropping the evidence by X who says Y.  This means none of my opponent’s contentions matter in the grand scheme of things since they do not protect the citizens’ negative rights.”</p>
+                <p><strong>Examples: </strong>"My opponent has conceded my definition that says only X counts as a form of a reparation.  As a result none of the oppositions' contentions are topical since they don't fall under the category of X."</p>
                 <p></p>
                 <h1>Advanced Rebuttal Strategies</h1>
                 <h2>The Time Efficiency Model</h2>
@@ -189,7 +186,7 @@ class Rebuttals extends React.Component {
                 <p>Independent voters are arguments you define to be so important that, if won, they are an independent reason to vote for you (irrespective of everything else that takes place in the round).  Of course, you also need to provide a good reason for why the argument is an independent voter too (now it just sounds like weighing right).  It usually happens when your opponent makes a major error.  If you catch your opponent cheating, or reading abusive arguments there could be cause for an independent voter.</p>
                 <p>When you say that one of your own arguments is an independent voter, you generally want to save it for the last speech because you don’t want to risk your opponent reading a TURN against it in the next speech.  There are a few exceptions to this, like when your opponent drops a framework or definition argument that can’t be TURNed, where you should bring it up as soon as possible though.</p>
                 <p><strong>Example: </strong>“My opponent has conceded my definition X.  This means none of his arguments apply anymore since they all talk about Y.  This is an independent reason to vote for me since my opponent’s entire case is not topical.”</p>
-                <p><strong>Example: </strong>Topic -A just government ought to prioritize civil liberty over security.<br/>“My opponent has conceded my framework that for a state to be legitimate it must first ensure protection of the people.  This is an independent reason to vote for the neg because any country that doesn’t prioritize security is not definitionally “just.”</p>
+                <p><strong>Example: </strong>Topic -The U.S.F.G. Should Guarantee Reparations to African Americans<br/>“My opponent has conceded my framing argument that before the government provides reparations, they must first obtain consent from all of the African American community.  But nowhere in my opponent's last speeches was it explained how and when that consent would be obtained.  This violation of human dignity is an independent reason to vote for the neg because any "reparation" that is forced upon others is no form of real reparation at all.</p>
                 <p>When you say that one of your opponent’s arguments is an independent voter you are usually saying that one of their arguments is so problematic that they should lose for it immediately.</p>
                 <p><strong>Example: </strong>“My opponent advocates a policy that justifies racism and slavery.  This is an extremely problematic argument that should be an independent reason to vote against my opponent because of the violence it recreates in the real world.  We can also probably agree that no case that justifies slavery could ever be morally correct.”</p>
                 <h2>Should I Read it as a TURN or Contention?</h2>
@@ -199,8 +196,8 @@ class Rebuttals extends React.Component {
                     <li>TURNS build off an argument that your opponent has already started.  This means you spend less time reading an argument that provides the same return value.  Very time efficient.</li>
                     <li>Your opponent taking out a TURN is seen as less dominant than them taking out a contention level argument.</li>
                 </ol>
-                <p>Okay well then why don’t we just only read TURNS as the neg?  Remember, you still need to read framework (good time efficiency) and that means you need contentions under that framework to make it make it a credible threat.  Furthermore, many traditional judges believe that the neg should have its own unique case position and will vote against you based on the idea that you don’t have a case to defend.</p>
-                <p>So, an argument should be read as an individual contention if it contains multiple links (which means it takes a while to explain), has its own unique definitions (any time you have to define or explain a component of the argument it should probably be read as a contention), or specifically links to your framework (it’s a no brainer if that’s its strategic purpose).</p>
+                <p>Okay well then why don’t we just only read TURNS as the neg?  Many traditional judges believe that the neg should have its own unique case position and will vote against you based on the idea that you don’t have a case to defend.</p>
+                <p>So, an argument should be read as an individual contention if it contains multiple links (which means it takes a while to explain), or has its own unique definitions (any time you have to define or explain a component of the argument it should probably be read as a contention)</p>
                 <h2>Double Bind</h2>
                 <img src='https://images-na.ssl-images-amazon.com/images/I/31MQ-Qiw99L._SX425_.jpg' width='30%'/>
                 <p>A double bind is a type of rebuttal where you claim that whether or not your opponent’s argument is true, he loses either way.  It usually uses the either-or phrasing and can demolish arguments really effectively.  Here is the general form of the argument.  “My opponent’s contention 1 is under a double bind.  Either X happens which leads to Y which is bad or X doesn’t happen which means Z happens which is just as bad.”  A double bind can also be applied to the debate as a whole.</p>
@@ -224,4 +221,4 @@ class Rebuttals extends React.Component {
     }
 }
 
-export default Rebuttals;
+export default RebuttalsPF;

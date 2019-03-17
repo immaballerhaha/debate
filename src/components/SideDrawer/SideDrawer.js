@@ -18,7 +18,7 @@ class sideDrawer extends React.Component {
                     <ul>
                         <li><a onClick={() => this.props.clickChangeTab("pf-intro")}>Introduction</a></li>
                         <li><a onClick={() => this.props.clickChangeTab("research")}>Research</a></li>
-                        <li><a onClick={() => this.props.clickChangeTab("rebuttals")}>Rebuttals</a></li>
+                        <li><a onClick={() => this.props.clickChangeTab("rebuttalsPF")}>Rebuttals</a></li>
                         <li><a onClick={() => this.props.clickChangeTab("pf-case-construction")}>Case Construction</a></li>
                         <li><a onClick={() => this.props.clickChangeTab("pf-speeches")}>Speeches</a></li>
                         <li><a onClick={() => this.props.clickChangeTab("pf-cx")}>CX</a></li>
