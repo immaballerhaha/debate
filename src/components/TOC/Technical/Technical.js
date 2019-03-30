@@ -42,7 +42,7 @@ class Technical extends React.Component {
                         <p style={{padding : '1rem'}}><strong>Takeaway: </strong>As the aff, it is always in your best interest to limit the scope of what the neg can attack.  In this case, we limit the neg from being able to attack “all nuclear power,” to only being able to attack “Molten Salt Reactors.”</p>
                     </AccordionItem>
                 </Accordion>
-                <h3>Recontexualize for Traditional Debate</h3>
+                <h3>Recontextualize for Traditional Debate</h3>
                 <p>But remember there’s a catch!  Traditional judges don’t like plans and will probably vote against you just for bringing one up.  To avoid this, don’t read the plan in your constructive.  Read it as a response in the rebuttal speech, and frame it as “your opponent is forcing you to read a plan by reading this argument.”  This strategy is also most time efficient and optimal because you can pick and choose which plan to read depending on what the opponent’s case position is.  It leads to you being able to pick the best plan for the situation (the one that lets you wiggle out of the most neg arguments), and also doesn’t make you look like a rule breaker (you had no choice).</p>
                 <p><strong>Tip: </strong>If you use this strategy, the neg also doesn’t have a CX left, so they won’t be able to clarify your plan if they’re confused.</p>
                 <p><strong>Example: </strong>Topic -”The U.S. Ought to Pass a Universal Basic Income”</p>
@@ -91,7 +91,7 @@ class Technical extends React.Component {
                 <img src={CP} width='50%' height='50%' alt='CP'/>
                 <p></p>
                 <p>As you can see in the above image, the CP text is to “Let people keep buying handguns but only after receiving a purchasing license.”  The solvency advocate is Guo15 who references Connecticut as an empirical example.  The solvency evidence is provided by Rudolph et al 15 who indicates a 40% reduction in homicides if we follow the purchasing license approach.  The CP is mutually exclusive with with aff plan because you cannot ban all handguns and require people to get purchasing licenses.  The net benefit is that purchasing licenses won’t lead to the creation of black markets and normal people who want guns for self defense can still purchase.</p>
-                <h3>Recontexualize for Traditional Debate</h3>
+                <h3>Recontextualize for Traditional Debate</h3>
                 <p>So now you know how to create a killer counterplan, but this doesn’t solve the occasional problem of having a traditional judge who doesn’t appreciate the use of these arguments.  What do you do then?</p>
                 <Accordion>
                     <AccordionItem title='Method 1'>
